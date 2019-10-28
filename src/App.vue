@@ -1,17 +1,17 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/solidarity.png">
-    <HelloWorld msg="We can do this TOGETHER <3"/>
+    <Header></Header>
+    <AppBody></AppBody>
   </div>
 </template>
-
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
+import Header from "components/frame/Header.vue";
+import AppBody from "components/frame/Body.vue";
 export default {
   name: 'app',
   components: {
-    HelloWorld
+    Header,
+    AppBody
   }
 }
 </script>
@@ -23,6 +23,5 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
 }
 </style>
