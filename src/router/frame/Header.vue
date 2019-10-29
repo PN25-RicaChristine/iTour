@@ -14,13 +14,13 @@
             @click="redirect('/login')"
             type="button"
             class="btn btn-outline-light"
-            id="signupbtn"
+            id="loginbtn"
           >Log in</b-button>&nbsp;&nbsp;&nbsp;
           <b-button
             @click="redirect('/register')"
             type="button"
             class="btn btn-light"
-            id="loginbtn"
+            id="signupbtn"
           >Sign up</b-button>
         </b-navbar-nav>
       </b-collapse>
@@ -36,27 +36,31 @@
   background-color: #0086b3;
 }
 #loginbtn {
-  border-radius: 20px;
-  color: black;
+  border-radius: 25px;
+  border: 3px solid white;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  background: #0086b3;
+  width: 128px;
+  height: 52px;
+  color: white;
   font-weight: bold;
-  font-size: 15px;
+  font-size: 12px;
   /* border: solid white; */
 }
 #signupbtn {
-  border-radius: 20px;
+  width: 128px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  height: 52px;
+  background: white;
+  border-radius: 25px;
   font-weight: bold;
-  font-size: 15px;
+  font-size: 12px;
 }
 </style>
+
 <script>
-import ROUTER from "router"
-import AUTH from 'services/auth'
+import ROUTER from "router";
 export default {
-  data(){
-    return{
-      auth: AUTH
-    }
-  },
   methods: {
     redirect(router) {
       ROUTER.push(router);
