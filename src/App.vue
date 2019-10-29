@@ -8,7 +8,7 @@
 import Header from "components/frame/Header.vue";
 import AppBody from "components/frame/Body.vue";
 export default {
-  name: 'app',
+  name: "app",
   components: {
     Header,
     AppBody
