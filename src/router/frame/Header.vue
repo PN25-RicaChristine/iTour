@@ -1,34 +1,51 @@
 <template>
-  <div>
-    <b-navbar toggleable="lg" id="navbar">
-      <b-navbar-brand href="#">
-        <img id="logo" src="@/assets/logonamo.png" />
-      </b-navbar-brand>
+    <div>
+      <b-navbar toggleable="lg" id="navbar">
+        <b-navbar-brand href="#">
+          <img id="logo" src="@/assets/logonamo.png" />
+        </b-navbar-brand>
 
-      <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
+        <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
 
-      <b-collapse id="nav-collapse" is-nav>
-        <!-- Right aligned nav items -->
-        <b-navbar-nav class="ml-auto">
-          <b-button
-            @click="redirect('/login')"
-            type="button"
-            class="btn btn-outline-light"
-            id="loginbtn"
-          >Log in</b-button>&nbsp;&nbsp;&nbsp;
-          <b-button
-            @click="redirect('/register')"
-            type="button"
-            class="btn btn-light"
-            id="signupbtn"
-          >Sign up</b-button>
-        </b-navbar-nav>
-      </b-collapse>
-    </b-navbar>
-  </div>
+        <b-collapse id="nav-collapse" is-nav>
+          <!-- Right aligned nav items -->
+          <b-navbar-nav class="ml-auto">
+            <b-button
+              @click="redirect('/login')"
+              type="button"
+              class="btn btn-outline-light"
+              id="loginbtn"
+            >Log in</b-button>&nbsp;&nbsp;&nbsp;
+            <b-button
+              @click="redirect('/register')"
+              type="button"
+              class="btn btn-light"
+              id="signupbtn"
+            >Sign up</b-button>
+          </b-navbar-nav>
+        </b-collapse>
+      </b-navbar>
+    </div>
+<!-- 
+    <div id="home">
+      <div class="row">
+        <div class="col">1</div>
+        <div class="col">
+     
+        </div>
+      </div>
+    </div> -->
+ 
 </template>
 
 <style>
+#home {
+  text-align: center;
+  width: 100%;
+}
+
+
+
 #logo {
   max-width: 50px !important;
 }
@@ -60,6 +77,7 @@
 
 <script>
 import ROUTER from "router";
+
 export default {
   methods: {
     redirect(router) {

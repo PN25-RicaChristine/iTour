@@ -1,44 +1,45 @@
 <template>
-  <div id="background" style="padding-top:20px;">
-    <center>
-      <div id="divLogin" class="col-sm-3 my-sm-5 border rounded" style="margin-left:0.5%">
-        <form class="container">
-          <center>
-            <h1>Login</h1>
-          </center>
-          <hr />
-          <div class="row">
-            <label id="username" for="loginUsername">Username:</label>
-            <input
-              required
-              v-model="username"
-              name="username"
-              class="form-control"
-              placeholder="Enter Username"
-            />
-            <br />
-          </div>
+  <div>
+   
+    <div id="divLogin" class="col-sm-3 my-sm-5 border rounded" style="margin-left:0.5%">
+      <form class="container">
+        <br>
+        <br>
+        <center>
+         <img id="logo" src="@/assets/user final.png" />
+        </center>
+        <hr />
+        <div class="row">
+          <label id="username" for="loginUsername">Username:</label>
+          <input
+            required
+            v-model="username"
+            name="username"
+            class="form-control"
+            placeholder="Enter Username"
+          />
           <br />
-          <div class="row">
-            <label id="pass" for="loginPassword">Password:</label>
-            <input
-              required
-              v-model="password"
-              type="password"
-              name="password"
-              class="form-control"
-              id="loginPassword"
-              placeholder="Enter Password"
-            />
-          </div>
-          <br />
-          <button id="btnLogin" class="btn btn-primary" @click="submit">
-            <h6>Login</h6>
-          </button>
-          <br />
-        </form>
-      </div>
-    </center>
+        </div>
+        <br />
+        <div class="row">
+          <label id="pass" for="loginPassword">Password:</label>
+          <input
+            required
+            v-model="password"
+            type="password"
+            name="password"
+            class="form-control"
+            id="loginPassword"
+            placeholder="Enter Password"
+          />
+        </div>
+        <br />
+        <button id="btnLogin" class="btn btn-primary" @click="submit">
+          <h6>Login</h6>
+        </button>
+        <br />
+      </form>
+    </div>
   </div>
 </template>
 <style scoped lang="scss">
@@ -55,8 +56,23 @@ h1 {
 #divLogin {
   float: right;
   margin-right: 150px !important;
+  background-color: #828282;
+  opacity: 0.8;
+}
+
+#logo{
+  width:700px;
+  height: 100px;
+  
 }
 </style>
+<style>
+body{
+background-image: url('../assets/logreg.jpg');
+background-size: cover;
+}
+</style>
+
 <script>
 import AUTH from "services/auth";
 import ROUTER from "router";

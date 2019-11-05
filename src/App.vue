@@ -8,16 +8,7 @@
     <AppBody></AppBody>
   </div>
 </template>
-<style scoped lang="scss">
-@import "assets/colors.scss";
-#app {
-  // background-image: $background-image !important;
-  background-repeat: $backgroud-repeat !important;
-  background-size: cover !important;
-  overflow: $overflow !important;
-  height: $height !important;
-  // max-height: $max-height !important;
-}
+<style>
 #side {
   margin-top: 55px;
   padding-bottom: 50px;

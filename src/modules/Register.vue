@@ -99,6 +99,7 @@ p {
   margin-right: 150px !important;
 }
 </style>
+
 <script>
 import AUTH from "services/auth";
 import jquery from "jquery";
