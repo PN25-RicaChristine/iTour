@@ -1,6 +1,10 @@
 <template>
   <div>
-    <div id="divLogin" class="col-sm-3 my-sm-5 border rounded" style="margin-left:0.5%">
+    <div id="LoginText" class="col-sm-3 my-sm-5 border rounded">
+      <h1>Log In</h1>
+    </div>
+
+    <div id="divLogin" class="col-sm-3 my-sm-5 border rounded">
       <form class="container">
         <br />
         <br />
@@ -58,7 +62,7 @@
 <style scoped lang="scss">
 @import "assets/colors.scss";
 h1 {
-  color: $warning !important;
+  color: black;
 }
 #forgot {
   color: $primary !important;
@@ -75,13 +79,21 @@ h6 {
   width: 500px;
   margin-right: 150px !important;
   background-color: #828282;
-  opacity: 0.8;
+  // opacity: 0.8;
 }
-#logo {
-  width:800px;
 
-  
+#LoginText {
+  float: right;
+  width: 500px;
+  margin-right: 150px !important;
+  background-color: #0086b3;
+  border-radius: 5px;
 }
+
+// #logo {
+//   width: 131px;
+//   height: 131.16px;
+// }
 #btnLogin {
   border-radius: 25px;
   border: 3px solid white;
