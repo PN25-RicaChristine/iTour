@@ -1,12 +1,11 @@
 <template>
   <div>
-   
     <div id="divLogin" class="col-sm-3 my-sm-5 border rounded" style="margin-left:0.5%">
       <form class="container">
-        <br>
-        <br>
+        <br />
+        <br />
         <center>
-         <img id="logo" src="@/assets/user final.png" />
+          <img id="logo" src="@/assets/user final.png" />
         </center>
         <hr />
         <div class="row">
@@ -34,9 +33,23 @@
           />
         </div>
         <br />
-        <button id="btnLogin" class="btn btn-primary" @click="submit">
-          <h6>Login</h6>
-        </button>
+        <center>
+          <button id="btnLogin" class="btn btn-primary" @click="submit">
+            <h6>Login</h6>
+          </button>
+          <br />
+          <br />
+          <button
+            class="btn btn-link"
+            id="login"
+            style="font-size:larger"
+            type="button"
+          >Forgot Password?</button>
+          <p style="color:white">
+            Don’t have an account?
+            <a href="http://localhost:8080/#/register">Sign up here!</a>
+          </p>
+        </center>
         <br />
       </form>
     </div>
@@ -47,29 +60,47 @@
 h1 {
   color: $warning !important;
 }
-#username {
-  color: $warning !important;
+#forgot {
+  color: $primary !important;
+}
+#username,
+h6 {
+  color: white;
 }
 #pass {
-  color: $warning !important;
+  color: white;
 }
 #divLogin {
   float: right;
+  width: 500px;
   margin-right: 150px !important;
   background-color: #828282;
   opacity: 0.8;
 }
-
-#logo{
-  width:700px;
+#logo {
+  width: 700px;
   height: 100px;
-  
+}
+#btnLogin {
+  border-radius: 25px;
+  border: 3px solid white;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  background: #0086b3;
+  width: 128px;
+  height: 52px;
+  color: white;
+  font-weight: bold;
+  font-size: 12px;
+}
+input {
+  border: black;
 }
 </style>
+
 <style>
-body{
-background-image: url('../assets/logreg.jpg');
-background-size: cover;
+body {
+  background-image: url("../assets/logreg.jpg");
+  background-size: cover;
 }
 </style>
 
