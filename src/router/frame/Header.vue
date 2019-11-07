@@ -50,15 +50,16 @@
   max-width: 50px !important;
 }
 #navbar {
-  background-color: #0086b3;
+  background-color:  #0086B3;
+  height: 70px;
 }
 #loginbtn {
   border-radius: 25px;
   border: 3px solid white;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  background: #0086b3;
+  background: #0086B3;
   width: 128px;
-  height: 52px;
+  height: 45px;
   color: white;
   font-weight: bold;
   font-size: 12px;
@@ -67,7 +68,7 @@
 #signupbtn {
   width: 128px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  height: 52px;
+  height: 45px;
   background: white;
   border-radius: 25px;
   font-weight: bold;

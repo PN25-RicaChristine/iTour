@@ -93,13 +93,17 @@ h6 {
   font-size: 12px;
 }
 input {
-  border: black;
+  background: #ffffff;
+  border: 2px solid #000000;
+  box-sizing: border-box;
+  border-radius: 20px;
 }
 </style>
 
 <style>
 body {
-  background-image: url("../assets/logreg.jpg");
+  /* background-image: url("../assets/logreg.jpg"); */
+  background-image: url("http://static.asiawebdirect.com/m/phuket/portals/philippines-hotels-ws/homepage/cebu-island/best-cebu-attractions/pagePropertiesImage/best-cebu-attractions.jpg");
   background-size: cover;
 }
 </style>
