@@ -78,8 +78,9 @@ h6 {
   opacity: 0.8;
 }
 #logo {
-  width: 700px;
-  height: 100px;
+  width:800px;
+
+  
 }
 #btnLogin {
   border-radius: 25px;
@@ -102,8 +103,8 @@ input {
 
 <style>
 body {
-  /* background-image: url("../assets/logreg.jpg"); */
-  background-image: url("http://static.asiawebdirect.com/m/phuket/portals/philippines-hotels-ws/homepage/cebu-island/best-cebu-attractions/pagePropertiesImage/best-cebu-attractions.jpg");
+  background-image: url("../assets/logreg.jpg");
+  /* background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhj9xPcjLsBOLNaEYTrFwF-SD25OWRo7Lo1ukM7Aq3xKvMgFDyqA&s"); */
   background-size: cover;
 }
 </style>
