@@ -3,13 +3,13 @@
     <div id="LoginText" class="col-sm-3 my-sm-5 border rounded">
       <h1>Log In</h1>
     </div>
-
+    
     <div id="divLogin" class="col-sm-3 my-sm-5 border rounded">
       <form class="container">
         <br />
         <br />
         <center>
-          <img id="logo" src="@/assets/user final.png" />
+          <img id="logo" src="@/assets/logoKo.png" />
         </center>
         <hr />
         <div class="row">
@@ -83,6 +83,7 @@ h6 {
 }
 
 #LoginText {
+  
   float: right;
   width: 500px;
   margin-right: 150px !important;
@@ -91,9 +92,10 @@ h6 {
 }
 
 // #logo {
-//   width: 131px;
-//   height: 131.16px;
+//   width: 500px;
+//   height: 100px;
 // }
+
 #btnLogin {
   border-radius: 25px;
   border: 3px solid white;
@@ -116,7 +118,7 @@ input {
 <style>
 body {
   background-image: url("../assets/logreg.jpg");
-  /* background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhj9xPcjLsBOLNaEYTrFwF-SD25OWRo7Lo1ukM7Aq3xKvMgFDyqA&s"); */
+  /* background-image: url("https://cdn.shopify.com/s/files/1/1419/3224/products/Sumilon_Island_Oslob_Tour_package.jpg?v=1550543098"); */
   background-size: cover;
 }
 </style>
