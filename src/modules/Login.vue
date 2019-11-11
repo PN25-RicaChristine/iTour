@@ -1,18 +1,18 @@
 <template>
   <div>
-    <div id="LoginText" class="col-sm-3 my-sm-5 border rounded">
-      <h1>Log In</h1>
-    </div>
-    
-    <div id="divLogin" class="col-sm-3 my-sm-5 border rounded">
-      <form class="container">
-        <br />
-        <br />
+    <div id="divLogin">
+      <div class="row">
+        <h1 id="LoginText">Log In</h1>
+      </div>
+      <div class="row">
+        <form class="container">
+        <br>
+        <br>
         <center>
-          <img id="logo" src="@/assets/logoKo.png" />
+          <img id="logo" src="@/assets/logoKo.png">
         </center>
-        <hr />
-        <div class="row">
+        <hr>
+        <div class="col-sm-4 my-sm-5">
           <label id="username" for="loginUsername">Username:</label>
           <input
             required
@@ -20,11 +20,9 @@
             name="username"
             class="form-control"
             placeholder="Enter Username"
-          />
-          <br />
+          >
         </div>
-        <br />
-        <div class="row">
+        <div class="col-sm-4 my-sm-5">
           <label id="pass" for="loginPassword">Password:</label>
           <input
             required
@@ -34,15 +32,14 @@
             class="form-control"
             id="loginPassword"
             placeholder="Enter Password"
-          />
+          >
         </div>
-        <br />
         <center>
           <button id="btnLogin" class="btn btn-primary" @click="submit">
             <h6>Login</h6>
           </button>
-          <br />
-          <br />
+          <br>
+          <br>
           <button
             class="btn btn-link"
             id="login"
@@ -54,8 +51,10 @@
             <a href="http://localhost:8080/#/register">Sign up here!</a>
           </p>
         </center>
-        <br />
+        <br>
       </form>
+      </div>
+      
     </div>
   </div>
 </template>
@@ -69,26 +68,35 @@ h1 {
 }
 #username,
 h6 {
-  color: white;
+  color: black;
+  font-weight: bold;
 }
 #pass {
-  color: white;
+  color: black;
+  font-weight: bold;
 }
 #divLogin {
   float: right;
-  width: 500px;
-  margin-right: 150px !important;
-  background-color: #828282;
+  width: 400px;
+  background: #80bfff;
+  mix-blend-mode: normal;
+  opacity: 0.8;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
   // opacity: 0.8;
 }
 
 #LoginText {
-  
   float: right;
-  width: 500px;
-  margin-right: 150px !important;
+  width: 400px;
+
   background-color: #0086b3;
   border-radius: 5px;
+  text-align: center;
+  border: 1px solid #4f4f4f;
+  box-sizing: border-box;
 }
 
 // #logo {
@@ -112,6 +120,7 @@ input {
   border: 2px solid #000000;
   box-sizing: border-box;
   border-radius: 20px;
+  width: 350px;
 }
 </style>
 
