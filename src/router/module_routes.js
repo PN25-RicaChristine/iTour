@@ -18,5 +18,6 @@ let routes = [
 ]
 routes = routes.concat(devRoutes)
 export default {
+    
     routes: routes
 }
