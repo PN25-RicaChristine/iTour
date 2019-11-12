@@ -10,7 +10,7 @@ for (let x = 0; x < devRoutes.length; x++) {
 
 let routes = [
     {
-        path: '/home',
+        path: '/',
         name: 'home',
         component: resolve => require(['modules/Home.vue'], resolve),
         beforeEnter: beforeEnter

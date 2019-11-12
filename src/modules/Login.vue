@@ -4,7 +4,7 @@
       <div class="row" style="padding-left:14px;">
         <h1 id="LoginText" >Log In</h1>
       </div>
-      <div class="row">
+      <div class="row"  style="padding-left:10px;">
         <form class="container">
         <br>
         <center>
@@ -58,6 +58,7 @@
 </template>
 <style scoped lang="scss">
 @import "assets/colors.scss";
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap');
 h1 {
   color: black;
 }
@@ -94,6 +95,8 @@ h6 {
   text-align: center;
   border: 1px solid #4f4f4f;
   box-sizing: border-box;
+  font-family: "Roboto";
+  font-weight: bolder;
 }
 
 // #logo {
