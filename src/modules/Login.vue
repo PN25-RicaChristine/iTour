@@ -1,17 +1,15 @@
 <template>
-  <div>
+  <div style="padding-right:200px;">
     <div id="divLogin">
-      <div class="row">
-        <h1 id="LoginText">Log In</h1>
+      <div class="row" style="padding-left:14px;">
+        <h1 id="LoginText" >Log In</h1>
       </div>
       <div class="row">
         <form class="container">
         <br>
-        <br>
         <center>
           <img id="logo" src="@/assets/logoKo.png">
         </center>
-        <hr>
         <div class="col-sm-4 my-sm-5">
           <label id="username" for="loginUsername">Username:</label>
           <input
@@ -81,19 +79,18 @@ h6 {
   background: #80bfff;
   mix-blend-mode: normal;
   opacity: 0.8;
-  border: 1px solid #000000;
+  // border:1px solid #000000;
   box-sizing: border-box;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 5px;
+  //padding-right: 5%;
   // opacity: 0.8;
 }
 
 #LoginText {
   float: right;
   width: 400px;
-
   background-color: #0086b3;
-  border-radius: 5px;
   text-align: center;
   border: 1px solid #4f4f4f;
   box-sizing: border-box;
