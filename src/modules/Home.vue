@@ -20,10 +20,10 @@
 </template>
 
 <style scoped>
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap');
 #hometext {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif !important;
-  font-weight: bold !important;
+  font-family:"Roboto";
+  font-weight: bolder;
   font-size: 80px !important;
   margin-left: 200px !important;
 }
