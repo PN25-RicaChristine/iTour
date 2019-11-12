@@ -9,10 +9,10 @@
       <div class="col-sm">
         <img id="image1" src="@/assets/image4.jpg" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         <img id="image2" src="@/assets/image2.jpg" />
-        <!-- <img id="image" src="@/assets/image3.jpg" />
-          <img id="image" src="@/assets/image4.jpg" />
-          <img id="image" src="@/assets/image5.jpg" />
-        <img id="image" src="@/assets/image6.jpg" />-->
+        <img id="image" src="@/assets/image3.jpg" />
+        <img id="image" src="@/assets/image4.jpg" />
+        <img id="image" src="@/assets/image5.jpg" />
+        <img id="image" src="@/assets/image6.jpg" />
       </div>
     </div>
   </div>
@@ -37,7 +37,7 @@
 }
 #image2 {
   width: 250px !important;
-    margin-top: 100px !important;
+  margin-top: 100px !important;
   -ms-transform: rotate(20deg); /* IE 9 */
   -webkit-transform: rotate(20deg); /* Safari 3-8 */
   transform: rotate(20deg);
