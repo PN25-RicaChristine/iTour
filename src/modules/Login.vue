@@ -91,7 +91,7 @@ h6 {
 #LoginText {
   float: right;
   width: 400px;
-  background-color: #0086b3;
+  background-color: #0086B3;
   text-align: center;
   border: 1px solid #4f4f4f;
   box-sizing: border-box;
